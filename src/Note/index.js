@@ -4,7 +4,7 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+
   } from "react-router-dom";
 const HomePage = lazy(() => import('./Pages/Home'))
 const Writepage = lazy(() => import('./Pages/Write'))
